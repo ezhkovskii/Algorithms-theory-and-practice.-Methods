@@ -12,9 +12,7 @@ def gcd1(a, b):
     if b>=a:
         return gcd(a,b%a)
 
-'''
-С рекурсией
-'''
+
 def gcd2(a, b):
     return gcd(b, a % b) if b else a
 
